@@ -1,0 +1,41 @@
+{
+  "name": "base-blockchain-fundraiser",
+  "version": "1.0.0",
+  "description": "A decentralized fundraising platform built on the Base blockchain.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "deploy": "npx hardhat run scripts/deploy.js --network base",
+    "compile": "npx hardhat compile"
+  },
+  "keywords": ["blockchain", "Base", "fundraiser", "ethereum", "hardhat", "react"],
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.3.0",
+    "hardhat": "^2.6.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
